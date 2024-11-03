@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875676957683",
+    "project_id": "work-hunter-6e281",
+    "storage_bucket": "work-hunter-6e281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875676957683:android:cf308a71ef1af488807086",
+        "android_client_info": {
+          "package_name": "com.negenka.workHunter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG8F2QNlW5DTyzfmosin5P9aE_KEaqDmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
