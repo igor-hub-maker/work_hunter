@@ -153,7 +153,7 @@ class _CreateJobScreenState extends State<CreateJobScreen> {
                   }),
               const Flexible(
                 child: Text(
-                  "Місце співпадає з дизлокацією фірми",
+                  "Місце співпадає з дислокацією фірми",
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
                 ),
               ),
@@ -189,7 +189,7 @@ class _CreateJobScreenState extends State<CreateJobScreen> {
                   ),
                   backgroundColor: state.canCreate ?? false ? null : Colors.grey),
               child: const Text(
-                "Створити ваканцію",
+                "Створити вакансію",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
               ),
             ),

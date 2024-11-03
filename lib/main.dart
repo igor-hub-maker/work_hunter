@@ -23,8 +23,8 @@ Future<void> main() async {
 Future<Widget> getHomeScreen() async {
   final injector = Injector.appInstance;
   final userId = injector.get<AuthManager>().getUserUid();
-  // injector.get<AuthManager>().logout();
-  // await injector.get<SharedPrefsService>().settIsFirstLaunch(true);
+  injector.get<AuthManager>().logout();
+  await injector.get<SharedPrefsService>().settIsFirstLaunch(true);
 
   final isFirstLaunch = await injector.get<SharedPrefsService>().getIsFirstLaunch();
   if (isFirstLaunch && userId == null) {

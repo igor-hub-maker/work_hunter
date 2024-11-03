@@ -1,4 +1,4 @@
-package com.example.work_hunter
+package com.negenka.workHunter
 
 import io.flutter.embedding.android.FlutterActivity
 

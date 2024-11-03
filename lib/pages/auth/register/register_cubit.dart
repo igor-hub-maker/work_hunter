@@ -43,7 +43,7 @@ class RegisterCubit extends Cubit<RegisterState> {
     final isLogIned = await authManager.register(email, password);
     log(isLogIned.toString());
     if (isLogIned) {
-      Navigator.push(context, MaterialPageRoute(builder: (_) => CreateUserScreen()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => CreateUserScreen()));
     }
   }
 }
